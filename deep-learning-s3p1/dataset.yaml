@@ -1,0 +1,14 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: D:\Kuliah\master\deep-learning-project-1\deeplearning-project-1 # dataset root dir
+train: augmented_dataset\train # train images (relative to 'path') 128 images
+val: augmented_dataset\train # val images (relative to 'path') 128 images
+test: dataset/test
+
+names:
+  0: angry 
+  1: disgust
+  2: fear
+  3: happy
+  4: neutral
+  5: sad
+  6: surprise
